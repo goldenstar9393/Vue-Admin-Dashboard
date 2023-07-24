@@ -47,7 +47,9 @@ Vue.mixin(Permissions);
 
 // include all css files
 import './lib/VuelyCss'
-import './assets/materialdesignicons.min.css'
+// import './assets/materialdesignicons.min.css'
+import 'vuetify/dist/vuetify.css';
+
 // messages
 import messages from './lang';
 
